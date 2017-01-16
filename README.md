@@ -10,8 +10,8 @@ Config file: /etc/syncIpToHover/.env
 
 Example config;
 
-HOVER_USERNAME="<your Hover username>"
-HOVER_PASSWORD="<your Hover password>"
-HOVER_DOMAIN_ID="<the domain id to update, available via inspecting the URL in the Hover admin>"
-HOVER_HOST="<the DNS host to update>"
-CURRENT_GATEWAY_IP="<leave blank, the script will cache the current IP here>"
+HOVER_USERNAME="\<your Hover username\>"
+HOVER_PASSWORD="\<your Hover password\>"
+HOVER_DOMAIN_ID="\<the domain id to update, available via inspecting the URL in the Hover admin\>"
+HOVER_HOST="\<the DNS host to update\>"
+CURRENT_GATEWAY_IP="\<leave blank, the script will cache the current IP here\>"
