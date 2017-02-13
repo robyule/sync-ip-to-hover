@@ -32,7 +32,7 @@ class HoverAPI(object):
 	def current_home(self, dom_id):
 		rrs = self.call("get", "domains/dom%s/dns" % dom_id)
 		for rr in rrs['domains'][0]['entries']:
-			if rr['name'] == 'home':
+			if rr['name'] == os.environ.get("HOVER_HOST") and rr['type'] == 'A':
 				return rr
 
 	def current_home_ip(self, dom_id):
